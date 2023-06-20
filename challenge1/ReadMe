@@ -1,0 +1,5 @@
+To test me:
+
+
+> cd challenge1
+> mvn test
