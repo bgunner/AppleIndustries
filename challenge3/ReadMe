@@ -1,6 +1,7 @@
 
 
 >> uses Java JDK 17
+>> uses maven
 >> uses h2 database in memory
 >> contains integration tests
 
@@ -10,3 +11,6 @@ To test me:
 > cd challenge3
 > mvn test
 
+Challenge3: Only two things in life are guaranteed...
+
+Once per calendar month Agent Smith of the Internal Revenue Service (IRS) wants to know how much tax we owe them.  For now, since our headquarters is in Long Island, New York, the IRS only requires us to pay the local sales tax rate of 8.625% no matter where the customer paid to use our photo booth.  Luckily, we don’t need to pay taxes on the packages we gave away for free.  To make this easy we’ll need some software that can add up all the order revenue collected in a photo booth by calendar month and determine how much tax we owe the IRS

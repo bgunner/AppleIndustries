@@ -1,6 +1,7 @@
 
 
 >> uses Java JDK 17
+>> uses maven
 >> uses h2 database in memory
 >> contains integration tests
 
@@ -10,3 +11,6 @@ To test me:
 > cd challenge2
 > mvn test
 
+Challenge2: I’m feeling lucky!
+
+At Apple Industries it’s important to remember that we sell fun: you and your friends climbing in one of our mega booths for some silly group scenes, hanging out in the movie theater lobby and being part of the movie magic, making your own memorabilia at a sports stadium or theme park. We also like winning prizes!Our booths have three types of photo packages: prints (4x6 photo) for $5, panoramas (6x12 prints) for $7, and strips (two 2x6 photo strips) for $5.  Once per hour at most, we want one customer that orders each package type to have a chance to receive the other two packages of prints for free.   To do that,we’ll need some software that knows what package the customer ordered, determines if that customer’s order is eligible to win, and then if they in fact won the free prints
