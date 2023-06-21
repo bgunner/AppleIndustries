@@ -25,7 +25,7 @@ INSERT INTO photo_package (id, name, price) VALUES (3, 'strips', 5);
 
 
 CREATE table IF NOT EXISTS customer_package_order(
-	id INT NOT NULL,
+	id INT NOT NULL ,
 	customer_id INT NOT NULL,
 	package_id INT NOT NULL,
 	order_time TIME NOT NULL,
@@ -36,3 +36,13 @@ TRUNCATE TABLE customer_package_order RESTART IDENTITY;
 INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (1, 1, 1, '10:05:10', false);
 INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (2, 2, 1, '10:10:15', false);
 INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (3, 3, 1, '10:20:20', false);
+
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (4, 4, 2, '11:05:10', false);
+
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (5, 5, 1, '12:00:00', false);
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (6, 1, 3, '12:30:00', false);
+
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (7, 2, 2, '13:00:00', false);
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (8, 3, 1, '13:30:00', false);
+INSERT INTO customer_package_order (id, customer_id, package_id, order_time, bonus) VALUES (9, 4, 2, '13:30:00', false);
+

@@ -1,0 +1,12 @@
+
+
+>> uses Java JDK 17
+>> uses h2 database in memory
+>> contains integration tests
+
+
+To test me:
+
+> cd challenge2
+> mvn test
+
